@@ -5,12 +5,12 @@ import org.postgis.*;
 import org.postgresql.PGConnection;
 
 @SuppressWarnings("unused")
-public class TestGis {
-//Õâ¶Î´úÂë--ÀûÓÃJDBCÁ¬½ÓpostgresqlÊý¾Ý¿â¡¢ÊµÊ©²éÑ¯²Ù×÷¡£
+public class TestGis {//
+//ï¿½ï¿½Î´ï¿½ï¿½ï¿½--ï¿½ï¿½ï¿½ï¿½JDBCï¿½ï¿½ï¿½ï¿½postgresqlï¿½ï¿½Ý¿â¡¢ÊµÊ©ï¿½ï¿½Ñ¯ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	public static void main(String[] args) {
 		java.sql.Connection conn;
 		
-		try {//connµÄÊµ¼ÊÀàÐÍÊÇ´æÔÚµÄ£¨ÊµÏÖPGConnection¡¢connection£©£¬ÊÇ³§ÉÌ×Ô¼º×¢²áµ½jvmÀïµÄ£¬¿ÉÍ¨¹ýconn.getClass()»ñÈ¡
+		try {//connï¿½ï¿½Êµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç´ï¿½ï¿½ÚµÄ£ï¿½Êµï¿½ï¿½PGConnectionï¿½ï¿½connectionï¿½ï¿½ï¿½ï¿½ï¿½Ç³ï¿½ï¿½ï¿½ï¿½Ô¼ï¿½×¢ï¿½áµ½jvmï¿½ï¿½Ä£ï¿½ï¿½ï¿½Í¨ï¿½ï¿½conn.getClass()ï¿½ï¿½È¡
 			Class.forName("org.postgresql.Driver");
 			String url = "jdbc:postgresql://localhost:5432/test";
 			conn = DriverManager.getConnection(url, "postgres", "lilei");			
