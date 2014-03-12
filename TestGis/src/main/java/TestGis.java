@@ -9,7 +9,7 @@ public class TestGis {//
 //��δ���--����JDBC����postgresql��ݿ⡢ʵʩ��ѯ������
 	public static void main(String[] args) {
 		java.sql.Connection conn;
-		
+		//这段话是测试用的
 		try {//conn��ʵ�������Ǵ��ڵģ�ʵ��PGConnection��connection�����ǳ����Լ�ע�ᵽjvm��ģ���ͨ��conn.getClass()��ȡ
 			Class.forName("org.postgresql.Driver");
 			String url = "jdbc:postgresql://localhost:5432/test";
