@@ -6,11 +6,11 @@ import org.postgresql.PGConnection;
 
 @SuppressWarnings("unused")
 public class TestGis {//
-//��δ���--����JDBC����postgresql��ݿ⡢ʵʩ��ѯ������
+//这是c盘的文件，A修改
 	public static void main(String[] args) {
 		java.sql.Connection conn;
 		
-		try {//conn��ʵ�������Ǵ��ڵģ�ʵ��PGConnection��connection�����ǳ����Լ�ע�ᵽjvm��ģ���ͨ��conn.getClass()��ȡ
+		try {
 			Class.forName("org.postgresql.Driver");
 			String url = "jdbc:postgresql://localhost:5432/test";
 			conn = DriverManager.getConnection(url, "postgres", "lilei");			
