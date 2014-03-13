@@ -6,7 +6,7 @@ import org.postgresql.PGConnection;
 
 @SuppressWarnings("unused")
 public class TestGis {//
-//这是c盘的文件，A修改
+//这是c盘的文件，A+修改
 	public static void main(String[] args) {
 		java.sql.Connection conn;
 
